@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#logo {
+	width: 200px;
+	height: 70px;
+}
+
+a {
+	color: #999999;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none !important;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+#nav-ul > li:hover > a , #nav-ul > li.selected > a{
+	/*background-color: #CD7054;*/
+	color: #3D3D3D;
+	/*border-radius: 10px 10px 0 0 ;*/
+}
+
+#nav-ul {
+	margin:18px 25px 0 0;
+}
+
+.nav-ul-launch {
+	display: inline-block;
+	float: none;
+}
+
+#nav-ul > li {
+	float: left;
+}
+
+#nav-ul li {
+	padding: 6px;
+}
+
+#nav-ul li:hover  ul{
+	display: block;
+}
+
+#activities-ul{
+	position: absolute;
+	top: 48px;
+	background: #5B5B5B;
+	display: none;
+	/*border-radius: 0 0 10px 10px;*/
+	padding: 5px;
+	text-align: left;
+}
+
+#activities-ul a{
+	color: white;
+}
+
+#activities-ul li:hover {
+	background: white;
+}
+
+#activities-ul li:hover  a{
+	color: #3D3D3D;
+}
+
+#header {
+	height: 70px;
+}
+
+#content {
+	min-height: 520px;
+	background: #f3f3f3 url('../img/overlay.png');
+}
+
+#logo-big{
+	margin: 76px auto 0;
+	width: 645px;
+	height: 200px;
+	text-align: right;
+	color: #8B4513;
+	font-weight: bold;
+}
+
+#institute-img{
+	height: 435px;
+	width: 500px;
+}
+
+#img-div, #desc-div {
+	float: left;
+	margin-top: 42px;
+	text-align: center;
+}
+
+/* #img-div {
+	width: 36%;
+}
+
+#desc-div {
+	width: 64%;
+} */
+
+.activities-name{
+	font-size: 18px;
+	font-weight: bold;
+	/*margin: 0 0 20px 20px;*/
+}
+
+#about1 {
+	height: 237px;
+	width: 400px;
+}
+
+#about2 {
+	height: 446px;
+	width: 430px;
+}
+
+#location-map {
+	width: 100%;
+}
+
+.activities-img {
+	width: 300px;
+	height: 180px;
+	margin: 0 0 20px 20px;
+	display: block;
+	float: left;
+}
+
+/* img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+} */
+
+.desc-child {
+	font-size: 25px;
+	/* margin-bottom: 20px; */
+	/* width: 300px; */
+	/*height: 211px;*/
+	margin-top: 25px;
+	display: block;
+}
+
+.desc-child-act{
+	height: 211px;
+}
+
+.desc-child div {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.desc{
+	font-size: 14px;
+}
+
+#footer {
+	height: 45px;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	color: #8B4513;
+	font-weight: bold;
+	text-align: center;
+}
+
+#socialnetdiv {
+	margin: 18px auto;
+	width: 100px;
+}
+
+#socialnetdiv a{
+	padding: 0px;
+}
+
+.socialneticons {
+	height: 20px;
+	width: 20px;
+}
+
+#fb-link {
+	float: left;
+}
+
+#googleplus-link {
+	float: right;
+}
