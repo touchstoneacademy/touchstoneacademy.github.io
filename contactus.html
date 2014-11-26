@@ -1,14 +1,15 @@
 <!doctype HTML>
 <html>
 	<head>
-		<title>Touchstone</title>
+		<title>Contact Us</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css"/>
 	</head>
 	<body>
 	<div class="container">
-		<div id="header" class="" style='text-align:center;'>
-			<ul id='nav-ul' class='nav-ul-launch'>
+		<div id="header" class="">
+			<img id='logo' src="img/tslogo.jpg" alt="">
+			<ul id='nav-ul'>
 				<li><a href="home.html">Home</a></li>
 				<li><a href="aboutus.html">About us</a></li>
 				<li><a id='activities' href="activities.html">Activities</a>
@@ -20,12 +21,31 @@
 				</li>
 				<li><a href="courses.html">Courses</a></li>
 				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
+				<li class='selected'><a href="contactus.html">Contact Us</a></li>
 				<li><a href="javascript:">Login/Signup</a></li>
 			</ul>
 		</div>
-		<div id="content" class="">
-			<div id='logo-big'><img id='logo-big' src="img/tslogo.jpg" alt="">....You will never be the same again</div>
+		<div id="content" class="container">
+			<div class="row" >
+				<div class='col-sm-6 col-xs-12'>
+					<p class='activities-name'>Location Map</p>
+					<img class ='activities-img img-responsive' src="img/location-map.jpg" alt="">
+				</div>
+				<div class='col-sm-6'>
+					<div class='desc-child' >
+						<div>Girish M</div>
+						<div>girimurari@gmail.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;+91 89518 66845</div>
+					</div>
+					<div class='desc-child' >
+						<div>Varun Chand</div>
+						<div>varun.bandlamudi@gmail.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;+91 96867 89429</div>
+					</div>
+					<div class='desc-child' >
+						<div>Vasudeva Murthy</div>
+						<div>kemovasudevamurthy@yahoo.co.in&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;+91 94470 48551</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="footer" class="">
 			<div id='socialnetdiv'>
@@ -34,7 +54,7 @@
 				<a id='googleplus-link' href='#' target='_blank'><img class='socialneticons' src="img/google_plus_icon.png" alt=""></a>
 			</div>
 		</div>
-	</div>	
+	</div>
 		<script type='text/javascript' src='js/main.js'></script>
 	</body>
 </html>
