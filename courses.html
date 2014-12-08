@@ -1,68 +1,519 @@
-<!doctype HTML>
-<html>
-	<head>
-		<title>Courses</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css"/>
-	</head>
-	<body>
-	<div class="container">
-		<div id="header" class="">
-			<img id='logo' src="img/tslogo.jpg" alt="">
-			<ul id='nav-ul'>
-				<li><a href="home.html">Home</a></li>
-				<li><a href="aboutus.html">About us</a></li>
-				<li><a id='activities' href="activities.html">Activities</a>
-					<!--<ul id='activities-ul'>
-							<li><a href="javascript:">Conferences and Seminar</a></li>
-							<li><a href="javascript:">Youth Retreat</a></li>
-							<li><a href="javascript:">Workshops</a></li>
-						</ul>-->
-				</li>
-				<li class='selected'><a href="courses.html">Courses</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-				<li><a href="javascript:">Login/Signup</a></li>
-			</ul>
-		</div>
-		<div id="content" class="container">
-			<div class="row" >
-				<div class='col-md-4 col-sm-6 col-xs-12'>
-					<p class='activities-name'>The power of habit</p>
-					<img class ='activities-img img-responsive' src="img/habit.png" alt="">
-				</div>
-				<div class='col-md-8 col-sm-6'>
-					<p>Habits – rule you. Makes your destiny for you. You are controlled by habits. While it is easy to fall prey to bad habits it is difficult to develop good habits. Why is it ? Einstein once said “Genius is the ability to do the same thing for a long period of time which is a habit actually “ so what is the science behind habit formation and how it affects your life ? Find out more.</br>
-						Textbook: Science of Self-realization /Seven habits of highly effective people 
-						Course Duration : 8 hours(two days) with 4 hours/per day. 
-						Minimum no of participants : 10 
-						Facilitator: Varun Chand B, Civil Engineer/Manager HP, NITC, IIM Kozhikode.
-					</p>
-				</div>
-			</div>
-			<div class="row" >
-				<div class='col-md-4 col-sm-6 col-xs-12'>
-					<p class='activities-name'>Mind your mind</p>
-					<img class ='activities-img img-responsive' src="img/mind.png" alt="">
-				</div>
-				<div class='col-md-8 col-sm-6'>
-					<p>Ever wondered what your mind is ? How it thinks feels and wills ? What is the speed of mind ? Your success and failure depends on the state of your mind. Control of mind is so essential to climb the ladder of success. Discover the greatest mind control techniques from the Bhagavadgita.<br/>
-						Textbook: Bhagavadgita/Journey of self discovery 
-						Course Duration : 8 hours(two days) with 4 hours/per day. 
-						Minimum no of participants : 10 
-						acilitator: Ranjit Pallerlamudi, Oracle Technologies.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div id="footer" class="">
-			<div id='socialnetdiv'>
-				<a id='fb-link' href='https://www.facebook.com/drdoutsaha' target='_blank'><img class='socialneticons' src="img/facebook_icon.png" alt=""></a>
-				<a id='twitter-link' href='https://twitter.com/drdoutsaha' target='_blank'><img class='socialneticons' src="img/twitter_icon.png" alt=""></a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Touchstone-Courses</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <meta name="description" content="Sublime Stunning free HTML5/CSS3 website template" />
+	<link rel="shortcut icon" type="image/png" href="img/favicon"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fancybox-thumbs.css">
+    <link rel="stylesheet" type="text/css" href="css/fancybox-buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/fancybox.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fancybox.js"></script>
+    <script type="text/javascript" src="js/fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/fancybox-media.js"></script>
+    <script type="text/javascript" src="js/fancybox-thumbs.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+    <section class="billboard light">
+        <header class="wrapper light">
+            <a href="index.html"><img class="logo" src="img/tslogo.jpg" alt="" />
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+					<li><a href="aboutus.html">About Us</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="caption light animated wow fadeInDown clearfix">
+            <h1>TouchStone</h1>
+            <p>You will never be the same!</p>
+            <hr>
+        </div>
+        <div class="shadow"></div>
+    </section>
+    <!--  End billboard  -->
+
+
+
+
+    <section class="services wrapper">
+		<h1>Meta Physics</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/1.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Illusion & Reality</h2>
+                <p>What is a reality and what is illusion is a hot topic in Metaphysics. Centuries of debates, philosophy and
+literature is poured into it. Even so, Hollywood has also ventured into it to make a quick buck! (“Matrix”
+trilogy). So here is an exquisite exploration of Illusion versus reality – perception and its validity as
+described in the timeless teachings of Vedas.
+Textbook: Beyond Illusion and Doubt by AC Bhaktivedanta Swami, BBT
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: HH Bhaktivinoda Swami, Director, ISKCON Coimbatore.</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/2.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>History of Time</h2>
+                <p>Ever fascinated at the powerful “Time” ? What is it ? Who set off the time ? Does it have a beginning ?
+Physicists find it hard to grapple this curious topic and they are exercising their grey cells to crack it open.
+Millions of years ago, this was already described to every scientific detail in the Vedas. Register to know
+what time is, is it linear or circular ? Is time travel a fantasy or reality ? Does absolute time exist ? and
+much more.
+Textbook: Bhagavad Gita as it is / Srimad Bhagavatam
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Girish M / Amit Kalra – Scientists, DRDO</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/3.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Does God Exist?</h2>
+                <p>Who is God ? Is there someone called God ? Or is it a mental fabrication of some genius intended to bring
+about a social order ? If God exists, why does evil exist in the world ? How to know Him and where does He
+live ? This and much more – every possible question you have about God and misconceptions about him is
+addressed in this seminar. Attend and get your answers.
+Textbook: Srimad Bhagavatam/Discover Yourself/Perfect Questions, Perfect answers
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: HH Bhaktivinoda Swami, Director, ISKCON Coimbatore.
+                </p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/4.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Quantum spirit and Anti Matter</h2>
+                <p>Quantum physics has revolutionized the way of thinking. No longer does the demarcation of matter and
+waves can be strictly made. In the quantum realm, particles defy the known laws of dynamics. After the
+discovery of antimatter particles, the origin of universe is becoming a mysterious quest. What is this
+antimatter ? Does the Vedas predict and elucidate them ? Register to know yourself.
+Textbook: Science of Self‐realization / Easy journey to other planets
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Girish M / Amit Kalra – Scientists, DRDO
+                </p>
+            </li>
+		</ul>
+		<h1>Life Consciousness and origin</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/5.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Darwin's theory of evolution - A cheating exposed</h2>
+                <p>Have we evolved from the apes? At
+a larger scale, does life evolve from the matter? What was the purpose
+of Charles Darwin in proposing the theory of evolution? This theory is practically admitted as the un‐
+questionable truth for evolution of life on earth even though
+a lot is critiqued about it in the scientific
+circle. Find out what is the flaw and why it should matter to you? One of the biggest lies in the history of
+science smashingly exposed.
+Textbook: Forbidden Archeology
+/ Life comes from life
+/ Divine nature
+Course Duration : 8 hours(two days) with
+4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Saurabh Chouksey (Suntech)</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/6.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Consciousness - The missing link</h2>
+                <p>Uncover the mystery of consciousness and its origin. Existence of Soul, near death experiences, past life
+memories and life after death concepts. The timeless teachings of Vedas and Bhagavadgita brought in the
+modern context and its practical applications detailedly explained.
+Textbook: Consciousness the missing link/ Beyond birth and Death
+Course Duration : 8 hours(two days) with
+4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Varun Chand B, Civil Engineer/Manager HP, NITC, IIM Kozhikode</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/7.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Aliens and Ghosts – Real or Fantasy ?</h2>
+                <p>Do ghosts exist ? What are they ? The science dismisses it but why do they scare us ? Why do we keep
+hearing experiences of excorcism and ghost attacks ? If it is fiction, what about the numerous accounts
+about them ? Find out the detailed examination of ghost secrets and their activities with scientific
+evidences and explanations from the Vedas.
+Textbook: Second Chance/Science of Self realization
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon) & Saurab Chouksey (Suntech)
+                </p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/8.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Reincarnation – "Tat Tvam Asi" </h2>
+                <p>The science of reincarnation, the process of transmigration and accounts of near death experiences, past
+life regressions, past life memories are examined in great detail. Evidences from ancient scriptures as well
+as modern accounts from various parts of the world gives us an insight into the topic which is so neglected
+in the recent so called modern education topics.
+Textbook: Coming back/Journey of Self‐discovery/Bhagavadgita
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: HH Bhaktivinoda Swami, Director, ISKCON Coimbatore.
+                </p>
+            </li>
+		</ul>
+		<h1>Management</h1>
+        <ul class="clearfix">
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/habit.png" alt="" />
+                <span class="separator"></span>
+                <h2>The power of habit</h2>
+                <p>Habits rule you. Makes your destiny for you. You are controlled by habits. While it is easy to fall prey to bad habits it is difficult to develop good habits. Why is it ? Einstein once said "Genius is the ability to do the same thing for a long period of time which is a habit actually" so what is the science behind habit formation and how it affects your life ? Find out more.</br>
+                    Textbook: Science of Self-realization /Seven habits of highly effective people Course Duration : 8 hours(two days) with 4 hours/per day. Minimum no of participants : 10 Facilitator: Varun Chand B, Civil Engineer/Manager HP, NITC, IIM Kozhikode.</p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/9.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Time management </h2>
+                <p>Do you find it difficult to manage your time ? Are you always busy and occupied while being very less
+productive ? Do you feel that you need some help as to how to manage your time ? How to prioritize your
+activities ? Then this course if for you. Simple techniques and tips to keep you get going towards the
+success.
+Textbook: Time managemnt
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon)</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/10.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Stress management</h2>
+                <p>Are you stressed and burnt out ? Does the pressure of academics bother you ? Are you depressed and
+frustrated and contemplate failure ? Do you feel inferior and lack of confidence? If yes – then this course is
+for you. But do not worry. There is a solution. Register for this course and find out solutions for all your
+problems. Don’t miss!
+Textbook: Stress Management by Radhe shayam pr.
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Sidhnath Singh, Aricent technologies.
+                </p>
+            </li>
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/mind.png" alt="" />
+                <span class="separator"></span>
+                <h2>Mind your mind</h2>
+                <p>Ever wondered what your mind is ? How it thinks feels and wills ? What is the speed of mind ? Your success and failure depends on the state of your mind. Control of mind is so essential to climb the ladder of success. Discover the greatest mind control techniques from the Bhagavadgita. Textbook: Bhagavadgita/Journey of self discovery Course Duration : 8 hours(two days) with 4 hours/per day. Minimum no of participants : 10 Facilitator: Ranjit Pallerlamudi, Oracle Technologies.</p>
+            </li>
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/11.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>IQ-EQ-SQ : Where do you stand ? </h2>
+                <p>Intelligent Quotient/Emotional Quotient and Spiritual Quotient has been identified now to
+be an essential part of an individual to have a sane growth, productivity and contribution to
+the world. Unfortunately, the modern education system puts biased emphasis on just IQ
+thereby depriving you of other two. Know more about the three, their interaction and how
+you can have sublime balance of all the three. Want to be successful ? This course if just
+designed for you…Don’t miss else you will miss your life…
+Textbook: Bhagavadgita/Journey of self discovery
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon)</p>
+            </li>
+		</ul>
+		<h1>History</h1>
+        <ul class="clearfix">
+            
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/12.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Greatness of Vedic India – are you a Patriot ?</h2>
+                <p>Know the greatness of India – the glory once it was and its contributions to the world. Once upon a time –
+everyone longed to visit India. Such was its glory, wealth and knowledge. If you are a patriot and want to
+know what was India in Vedic times, this seminar is just for you. It is not just sufficient that you feel proud
+of being Indian. You should also know its greatness to good details and science of it. Register now to show
+your love for your country. Bharat Mata ki Jai !
+Textbook: Vedic India
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: TV Nishant Menon, TCS</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/13.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Mahabharat : The Great</h2>
+                <p>Uncover the greatest classic of all the times – Mahabharat and its characters. Discover a never seen before
+insight into their stories and tales they have to tell. What is its influence and how it has affected the world
+across all fields. Puzzling stories and apparent contradictions. You would not want to miss it.
+Textbook : Mahabharat by Krsna Dharma / Srimad Bhagavatam
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Sidhnath Singh, Aricent technologies
+                </p>
+            </li>
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/14.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>The Ramayana : 10 Most important lessons </h2>
+                <p>Ramayana – its important lessons for the students. What does Ramayana teach you ? Go beyond the
+simple fables and thrill and dive deep into the sublime teachings lying underneath. Considered as one of
+the living legend, Ramayana is a beacon for the mankind
+Textbook: Ramayana
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon) AND Saurab Chouksey (Suntech)
+                </p>
+            </li>
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/15.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Vedic Heroes and Heroines – what you can learn from them ? </h2>
+                <p>Everyone craves to have a hero/heroine in their lives. The vedic literature provides unlimited number of
+such personalities with very high character and conduct who altered the course of the history. Do you want
+to know more about them ? Their stories and inspirations can change your life too…find out more by
+enrolling. Hurry !
+Textbook: Vedic Heroes and Heroines
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Saurab Chouksey (Suntech)
+                </p>
+            </li>
+		</ul>
+		<h1>Philosophy</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/16.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Idol Worship or Deity Worship ? </h2>
+                <p>Ever wondered what is the difference between an idol worship and a deity worship ? The British
+propaganda that Hindus are idol worshipers and hence inferior is widely used against the belief of millions
+of people. This causes a disturbance in the innocent minds and causes an intellectual defeat and insult.
+What is the science behind deity worship ? Is it scientific ? Is it proper ? Know more.
+Textbook: Bhagavad Gita
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: HH Bhaktivinoda Swami, Director, ISKCON Coimbatore.</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/17.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Why do we need Temples / Mosque/ Churches ? </h2>
+                <p>Why do we need a temple or a mosque or a church ? What was the purpose of them ? Is it mere symbolical
+or has a deeper connotation ? Why do ancient worlds have gigantic temples and churches ? What were
+they meant for ? Know more by registering for the course.
+Textbook: Vedic India
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: HH Bhaktivinoda Swami, Director, ISKCON Coimbatore</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/18.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Do all spiritual paths lead to the same destination ?</h2>
+                <p>Do all paths lead to the same result ? With several of people in the business of spirituality; how do you say
+what is genuine and what is fake ? What is the symptom of a bonafide spirituality ? Know more to get
+answers to all the questions you ever had but never got a satisfactory solution.
+Textbook: Science of Self Realization.
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon) AND Saurab Chouksey (Suntech)
+                </p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/19.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Why do bad things happen to good people ? </h2>
+                <p>What is Karma ? Why do bad things happen to good people ? Is there fate or free will ? Is life pre‐destined
+? Why are some people born better than others ? Is nature cruel or fair ? What is the grand scheme
+underlying all this phenomena? Is there an explanation available ? Dive deep into the depths of Vedic
+literature to know answers no where else to be found. A Life time opportunity ..register to know more.
+Textbook: Karma/Laws of Nature
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Saurab Chouksey (Suntech)
+                </p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/20.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Atheism – Is it Self Deceptive ?</h2>
+                <p>Atheism means disbelief in God. So, what is wrong if one is an atheist ? There is. It is self deception.
+Besides a misguidance to the entire society. Why and How ? Attend this presentation and find out more.
+Textbook: Srimad Bhagavatam/Bhagavadgita
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Varun Chand B, Civil Engineer/Manager HP, NITC, IIM Kozhikode. 
+                </p>
+            </li>
+			
+			<li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/21.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>MEDITATION YOGA </h2>
+                <p>"Yoga" is the buzz word today. Everyone knows that yoga is something nice but do not what and how it
+applies to them and what they are supposed to do. This session describes in good detail the concept of
+Yoga, methodology and the effective method as applied to students. Mantra meditation as a solution to all
+your problems – physical and mental. Know more by attending it.
+Textbook: Chant and be happy.
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon) 
+                </p>
+            </li>
+		</ul>
+		<h1>Religion</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/22.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Religion – an opium for masses. Is it so ? </h2>
+                <p>Communism declared “Religion is opium for masses”. What is religion and why it is important ? What is
+real religion ? Can there be spirituality without religion? Can diverse religions co‐exist harmoniously? How
+is religion misused and how should it be used properly in our lives so that individual and society at large is
+benefitted. Register if you are curious to know.
+Textbook: Dharma
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Girish M / Amit Kalra – Scientists, DRDO</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/23.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>If God is one, then why many relegions ? </h2>
+                <p>Wars have been fought on religion. It has bothered the mankind since dawn of the creation. Why do so
+many religions exist? If God is one, the religion also should be one. But there are several religions
+apparently with mutual contradictory teachings. How to integrate and have a comprehensive
+understanding ? Know more and you will never be the same.
+Textbook: Hare Krsna Challenge
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Omshankar Tiwari (Adobe/Amazon)</p>
+            </li>
+
+		</ul>
+		<h1>Vedic Cosmology</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/24.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Vedic Cosmology</h2>
+                <p>Discover the breath taking experience of Vedic cosmology – Big Bang theory, String theory and
+even much more beyond the human comprehension of this gigantic cosmology. Its origin and
+expansion and partial and total cyclic appearance. Did you know that every accurate details is
+given in the timeless Vedic literature ? Know more, discover..specially for you…
+Textbook: Vedic Cosmology/Srimad Bhagavatam
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Girish M / Amit Kalra – Scientists, DRDO </p>
+            </li>
+
+		</ul>
+		<h1>Ayurveda</h1>
+        <ul class="clearfix">
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/25.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Ayurveda and You</h2>
+                <p>Ayurveda is the time tested science of life and health. Do you want to know the basic elements
+of Ayurveda and lead a healthy and stress free life ? Enroll for this basic course on ayurveda to
+know everything you need to know about your physical and mental dimensions and their
+functioning. A worth course after all “Health is wealth”. Isn’t it ?
+Textbook: Ayurveda
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Sidhnath Singh, Aricent technologies.</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/26.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Brain Gain – The value of Semen</h2>
+                <p>One of the vital substance produced in the human body is Semen. Rich in glucose and lecithin,
+the modern science is juts discovering its potential. However the vedic literature especially
+Ayurveda lists the remarkable properties of it conservation of it which will enhance the
+potential of brain. Want to know more ? Enrol now….
+Textbook: Brain Gain
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Sidhnath Singh, Aricent technologies.</p>
+            </li>
+
+            <li class="animated wow fadeInDown">
+                <img class="activities-img" src="img/27.jpg" alt="" />
+                <span class="separator"></span>
+                <h2>Vegetarianism – Good for you !</h2>
+                <p>Ever wondered why should one be a vegetarian ? Its benefits – physical, mental and spiritual ?
+Does it alter the course of your life, the way you look at the society and part of it ? Several great
+geniuses of the world are vegetarians. Do you have any doubts or misconceptions ? Find out
+more by registering.
+Textbook: Science of Self realization.
+Course Duration : 8 hours(two days) with 4 hours/per day.
+Minimum no of participants : 10
+Facilitator: Girish M / Amit Kalra – Scientists, DRDO
+                </p>
+            </li>
+		</ul>
+    </section>
+    <!--  End video  -->
+
+
+
+
+
+    <footer>
+        <div class="wrapper">
+            <div class="rights">
+                <img src="img/tslogo.jpg" alt="" class="footer_logo" />
+
+            </div>
+
+            <nav>
+				<ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+					<li><a href="aboutus.html">About Us</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+		<div id='socialnetdiv'>
+				<a id='fb-link' href='https://www.facebook.com/touchstoneAcademy' target='_blank'><img class='socialneticons' src="img/facebook_icon.png" alt=""></a>
+				<a id='twitter-link' href='#' target='_blank'><img class='socialneticons' src="img/twitter_icon.png" alt=""></a>
 				<a id='googleplus-link' href='#' target='_blank'><img class='socialneticons' src="img/google_plus_icon.png" alt=""></a>
-			</div>
 		</div>
-	</div>
-		<script type='text/javascript' src='js/main.js'></script>
-	</body>
+    </footer>
+    <!--  End footer  -->
+    <script src='../ga.js'></script>
+</body>
+
 </html>

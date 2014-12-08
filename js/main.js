@@ -1,9 +1,30 @@
+$(document).ready(function(){
 
-/*function attachFunc(){
-	document.getElementById('activities').addEventListener('mouseover', function(){
-				document.getElementById('activities-ul').style.display = 'block';
+	//fancybox.js init
+	$('.fancybox').fancybox({
+		openEffect : 'none',
+		closeEffect : 'none',
+		prevEffect : 'none',
+		nextEffect : 'none',
+
+		arrows : false,
+		helpers : {
+			media : {},
+			buttons : {}
+		}
 	});
-	document.getElementById('activities').addEventListener('mouseout', function(){
-				document.getElementById('activities-ul').style.display = 'none';
-	});
-}*/
+
+
+
+	//wow.js init
+	wow = new WOW(
+	    {
+		  animateClass: 'animated',
+		  mobile: false,
+		  offset: 100
+		}
+	);
+	wow.init();
+
+});
+
