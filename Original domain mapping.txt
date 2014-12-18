@@ -1,0 +1,4 @@
+Original mapping:
+Domain                      IP Address
+www.touchstoneacademy.in    203.170.80.250
+touchstoneacademy.in        203.170.80.250
